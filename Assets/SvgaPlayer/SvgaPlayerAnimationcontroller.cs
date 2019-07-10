@@ -44,7 +44,7 @@ namespace Svga
 
             PlayedCount = 0;
             _isPlaying = true;
-            
+
             LoopCount = times;
 
             _isPlaying = true;
@@ -61,7 +61,7 @@ namespace Svga
                     _currentFrame = 0;
                     PlayedCount += 1;
 
-                    if (PlayedCount >= LoopCount)
+                    if (PlayedCount >= LoopCount && LoopCount != 0)
                     {
                         _isPlaying = false;
                         callback?.Invoke();

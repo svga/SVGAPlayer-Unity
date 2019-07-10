@@ -14,6 +14,8 @@ namespace Svga
         private readonly List<ShaderPropertyController> _subSpritesList =
             new List<ShaderPropertyController>();
 
+        public Material m;
+
         private void InitialView()
         {
             var viewBox = new Vector2(MovieParams.ViewBoxWidth, MovieParams.ViewBoxHeight);
@@ -24,7 +26,7 @@ namespace Svga
             {
                 // 创建SpriteEntity实体
                 var SpriteObject = new GameObject(sprites[i].ImageKey, typeof(Image));
-                SpriteObject.GetComponent<Image>().material = new Material(Shader.Find("SVGA/Image"));
+                SpriteObject.GetComponent<Image>().material = new Material(m);
                 SpriteObject.AddComponent<ShaderPropertyController>();
                 SpriteObject.transform.SetParent(transform);
 

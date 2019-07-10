@@ -9,7 +9,11 @@ SVGAPlayer is a light-weight animation renderer. This is Unity implementation fo
 
 # Quickstart
 
-1. Set Canvas Scaler UI Scale Mode is Constant Physical Size or Scale With Screen Size Reference Resolution y = Camera.Size * 200 and Match = 1
+1. Set
+ - Canvas Scaler UI Scale Mode is Constant Physical Size 
+ 
+ or 
+ - Scale With Screen Size Reference Resolution y = Camera.Size * 200 and Match = 1
 2. API
 
 ```CS

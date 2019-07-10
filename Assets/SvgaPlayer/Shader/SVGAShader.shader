@@ -1,4 +1,4 @@
-﻿Shader "SVGA/Image"
+﻿Shader "SVGA"
 {
     
     Properties
