@@ -20,7 +20,12 @@ SVGAPlayer is a light-weight animation renderer. This is Unity implementation fo
 
 public void LoadSvgaFileData(Stream svgaFileBuffer){}
 
-public void Play(int times, Action callback = null){}
+/// <summary>
+/// Start play
+/// </summary>
+/// <param name="n"></param> Play n times,zero is infinite,default 0
+/// <param name="callback"></param> Execute after playback is complete
+public void Play(int n, Action callback = null){}
 
 public void Pause()
 
