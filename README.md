@@ -23,7 +23,7 @@ public void LoadSvgaFileData(Stream svgaFileBuffer){}
 /// <summary>
 /// Start play
 /// </summary>
-/// <param name="n"></param> Play n times,zero is infinite,default 0
+/// <param name="n"></param> Play n times,0 is infinite,default 0
 /// <param name="callback"></param> Execute after playback is complete
 public void Play(int n, Action callback = null){}
 
