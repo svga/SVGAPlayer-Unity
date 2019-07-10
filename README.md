@@ -30,3 +30,7 @@ public void Play(int n, Action callback = null){}
 public void Pause()
 
 ```
+
+# Other
+
+ `SvagPlayerData.cs` fork from [LancerComet/SVGAPlayer-UWP](https://github.com/LancerComet/SVGAPlayer-UWP).
